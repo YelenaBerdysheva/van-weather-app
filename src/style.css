@@ -36,17 +36,17 @@ li {
   margin-bottom: 20px;
 }
 .weather-temperature img {
-  margin-right: 20px;
-  height: 65px;
-  width: 65px;
+  margin: 0 0 20px 20px;
+  height: 80px;
+  width: 80px;
 }
-.weather-temperature strong {
+.weather-temperature__strong {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
-.weather-temperature.units {
+.weather-temperature__units {
   position: relative;
   font-size: 16px;
-  top: -32px;
+  top: -34px;
 }
